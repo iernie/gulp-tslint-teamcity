@@ -1,0 +1,19 @@
+{
+  "name": "gulp-tslint-teamcity",
+  "version": "1.0.0",
+  "description": "Typescript lint reporter for gulp-tslint that works with tslint-teamcity-reporter",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:iernie/gulp-tslint-teamcity.git"
+  },
+  "author": "iernie",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iernie/gulp-tslint-teamcity/issues"
+  },
+  "homepage": "https://github.com/iernie/gulp-tslint-teamcity#readme",
+  "dependencies": {
+    "tslint-teamcity-reporter": "^0.1.5"
+  }
+}
