@@ -1,4 +1,7 @@
 # gulp-tslint-teamcity
+
+[![Dependency Status](https://gemnasium.com/iernie/gulp-tslint-teamcity.svg)](https://gemnasium.com/iernie/gulp-tslint-teamcity) [![npm version](https://badge.fury.io/js/gulp-tslint-teamcity.svg)](http://badge.fury.io/js/gulp-tslint-teamcity)
+
 Typescript lint reporter for [gulp-tslint](https://github.com/panuhorsmalahti/gulp-tslint) that works with [tslint-teamcity-reporter](https://github.com/ThaNarie/tslint-teamcity-reporter).
 
 Installation
