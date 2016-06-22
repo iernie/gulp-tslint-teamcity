@@ -14,6 +14,8 @@
   },
   "homepage": "https://github.com/iernie/gulp-tslint-teamcity#readme",
   "dependencies": {
-    "tslint-teamcity-reporter": "^0.1.5"
+    "tslint": "^3.11.0",
+    "tslint-teamcity-reporter": "^1.0.0",
+    "typescript": "^1.8.10"
   }
 }
