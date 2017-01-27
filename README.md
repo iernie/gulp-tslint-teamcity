@@ -4,6 +4,22 @@
 
 Typescript lint reporter for [gulp-tslint](https://github.com/panuhorsmalahti/gulp-tslint) that works with [tslint-teamcity-reporter](https://github.com/ThaNarie/tslint-teamcity-reporter).
 
+# <!-- DEPRECATED
+Since [tslint](https://github.com/palantir/tslint) 4.X, [gulp-tslint](https://github.com/panuhorsmalahti/gulp-tslint) 7.X and [tslint-teamcity-reporter](https://github.com/ThaNarie/tslint-teamcity-reporter) 2.X you do not need this package anymore. Simply use the reporter directly using the new tslint syntax seen below. Therefore this package will not be updated anymore.
+```
+var gulp = require('gulp');
+var tslint = require('gulp-tslint');
+// tslint-teamcity-reporter is also installed
+
+gulp.task('lint', function () {
+    gulp.src('SourceFiles.ts')
+      .pipe(tslint({
+        formatter: 'tslint-teamcity-reporter'
+      }))
+      .pipe(tslint.report({ emitError: false }));
+```
+# -->
+
 Installation
 ------------
 Note that this is designed to accept output from gulp-tslint, which must be installed separately.
