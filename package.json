@@ -1,6 +1,6 @@
 {
   "name": "gulp-tslint-teamcity",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Typescript lint reporter for gulp-tslint that works with tslint-teamcity-reporter",
   "main": "index.js",
   "repository": {
