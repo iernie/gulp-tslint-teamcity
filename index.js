@@ -14,12 +14,8 @@ var TeamCityReporter;
 	                return {
 	                    getLineAndCharacter: function() {
 	                        return {
-	                            line: function() {
-	                                return o.startPosition.line;
-	                            },
-	                            character: function() {
-	                                return o.startPosition.character;
-	                            }
+	                            line: o.startPosition.line,
+	                            character: o.startPosition.character
 	                        }
 	                    }
 	                }
